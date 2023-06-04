@@ -104,8 +104,8 @@
         allow_merge_commit = false;
         allow_rebase_merge = true;
         delete_branch_on_merge = true;
-        private = true;
-        has_issues = false;
+        private = false;
+        has_issues = true;
         has_projects = false;
         has_wiki = false;
         has_downloads = false;
