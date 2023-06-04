@@ -17,7 +17,6 @@ in {
       (std.lib.cfg.editorconfig cell.config.editorconfig)
       (std.lib.cfg.githubsettings cell.config.githubsettings)
       (std.lib.cfg.lefthook cell.config.lefthook)
-      (std.lib.cfg.mdbook cell.config.mdbook)
     ];
 
     env = [
@@ -33,23 +32,10 @@ in {
         package = nixpkgs.just;
       }
       {
-        category = "tasks";
-        name = "copy-src-yaml";
-        command = ''
-
-        '';
-      }
-      {
         category = "tools";
         package = nixpkgs.yaml2json;
       }
-      {
-        category = "rendering";
-        package = nixpkgs.mdbook;
-      }
     ];
-
-    # packages = [nixpkgs.nushell];
 
     imports = [std.std.devshellProfiles.default];
   };

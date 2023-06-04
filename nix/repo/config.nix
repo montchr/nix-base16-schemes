@@ -110,30 +110,4 @@
       };
     };
   };
-
-  # Tool Homepage: https://rust-lang.github.io/mdBook/
-  mdbook = {
-    # add preprocessor packages here
-    packages = [
-      inputs.nixpkgs.mdbook-linkcheck
-    ];
-    data = {
-      # Configuration Reference: https://rust-lang.github.io/mdBook/format/configuration/index.html
-      book = {
-        language = "en";
-        multilingual = false;
-        title = "nix-base16-schemes";
-        src = "docs";
-      };
-      build.build-dir = "docs/build";
-      preprocessor = {};
-      output = {
-        html = {};
-        # Tool Homepage: https://github.com/Michael-F-Bryan/mdbook-linkcheck
-        linkcheck = {};
-      };
-    };
-    output = "book.toml";
-    hook.mode = "copy"; # let CI pick it up outside of devshell
-  };
 }
