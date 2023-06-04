@@ -1,0 +1,26 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nix-base16-schemes
+Upstream-Contact: Chris Montgomery <chris@cdom.io>
+Copyright: 2023 Chris Montgomery <chris@cdom.io>
+License: GPL-3.0-or-later
+Source: https://github.com/montchr/nix-base16-schemes
+
+Files: flake.nix
+       nix/*
+Copyright: 2023 Chris Montgomery <chris@cdom.io>
+License: GPL-3.0-or-later
+
+Files: */.editorconfig
+       */.envrc
+       */.gitignore
+       .editorconfig
+       .envrc
+       .github/settings.yml
+       .gitignore
+       *.lock
+Copyright: 2023 Chris Montgomery <chris@cdom.io>
+License: CC0-1.0
+
+Files: *.md
+Copyright: 2023 Chris Montgomery <chris@cdom.io>
+License: CC-BY-NC-SA-4.0

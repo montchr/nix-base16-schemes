@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2012-2022 Chris Kempson and contributors
+# SPDX-FileCopyrightText: 2022 Tinted Theming (https://github.com/tinted-theming)
+# SPDX-License-Identifier: MIT
 {
   author = "PICO-8 (http://www.lexaloffle.com/pico-8.php)";
   base00 = "000000";

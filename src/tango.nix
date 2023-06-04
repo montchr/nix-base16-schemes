@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2012-2022 Chris Kempson and contributors
+# SPDX-FileCopyrightText: 2022 Tinted Theming (https://github.com/tinted-theming)
+# SPDX-License-Identifier: MIT
 {
   author = "@Schnouki, based on the Tango Desktop Project";
   base00 = "2e3436";

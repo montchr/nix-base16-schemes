@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2012-2022 Chris Kempson and contributors
+# SPDX-FileCopyrightText: 2022 Tinted Theming (https://github.com/tinted-theming)
+# SPDX-License-Identifier: MIT
 {
   author = "Iolar Demartini Junior (http://github.com/demartini) based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode).";
   base00 = "1e1e3f";

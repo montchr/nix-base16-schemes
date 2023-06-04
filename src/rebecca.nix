@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2012-2022 Chris Kempson and contributors
+# SPDX-FileCopyrightText: 2022 Tinted Theming (https://github.com/tinted-theming)
+# SPDX-License-Identifier: MIT
 {
   author = "Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)";
   base00 = "292a44";

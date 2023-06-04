@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2012-2022 Chris Kempson and contributors
+# SPDX-FileCopyrightText: 2022 Tinted Theming (https://github.com/tinted-theming)
+# SPDX-License-Identifier: MIT
 {
   author = "Jason Milkins (https://github.com/jasonm23)";
   base00 = "1D2021";

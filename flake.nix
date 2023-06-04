@@ -24,7 +24,7 @@
       ];
     }
     {
-      lib = haumea.lib.load {
+      lib.schemes = haumea.lib.load {
         src = ./src;
         loader = haumea.lib.loaders.verbatim;
       };

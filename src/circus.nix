@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2012-2022 Chris Kempson and contributors
+# SPDX-FileCopyrightText: 2022 Tinted Theming (https://github.com/tinted-theming)
+# SPDX-License-Identifier: MIT
 {
   author = "Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)";
   base00 = "191919";
